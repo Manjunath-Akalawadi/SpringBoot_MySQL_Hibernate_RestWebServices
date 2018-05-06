@@ -6,7 +6,7 @@ import java.util.Map;
 public interface EmployeeService {
 	
 	
-	//Here you can create  the services according to your web or moblie application
+	//here you can create  the services according to your web or moblie application
 	
 
 		//Featch all perticular employee in the table

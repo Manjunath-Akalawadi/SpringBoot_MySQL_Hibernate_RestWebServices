@@ -28,7 +28,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 
 		try {
 			
-			//here you can execute any complex queries
+			//here you can execute any complex queries according to output
 			String sql = "select * from demo.employee;";
 
 			empDetails = jdbc.queryForList(sql);
