@@ -46,7 +46,7 @@ public class EmployeeController {
 	
 	
 	
-	//Featch all perticular employee in the table
+	//Featch  perticular employee in the table
 	@RequestMapping(value="/getEmployeeDetails",method = RequestMethod.POST)
 	public List<Map<String, Object>>  getEmployeeDetails(@RequestBody Map<String,String> paramater){
 		
