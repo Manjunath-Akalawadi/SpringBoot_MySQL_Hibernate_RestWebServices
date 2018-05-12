@@ -1,5 +1,6 @@
 package com.manju.demo.module;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.EntityListeners;
 import javax.persistence.GeneratedValue;
@@ -17,18 +18,22 @@ public class Employee {
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
-	
-	
+	@Column(name="empId")
 	private long empId;
 	
+	@Column(name="name")
 	private String name;
-		
+	
+	@Column(name="mail")
 	private String mail;
 	
+	@Column(name="role")
 	private String role;
 	
+	@Column(name="city")
 	private String city;
 	
+	@Column(name="phone")
 	private String phone;
 
 	public long getEmpId() {
