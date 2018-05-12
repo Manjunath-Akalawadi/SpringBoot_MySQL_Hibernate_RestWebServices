@@ -104,7 +104,7 @@ public class EmployeeController {
 	
 	
 	
-	
+	// Update existing employee in the table
 	@RequestMapping(value="/updateEmployee",method = RequestMethod.POST)
 	public String updateEmployee(@RequestBody Map<String,String> paramater){
 		
@@ -135,9 +135,8 @@ public class EmployeeController {
 	}
 	
 	
-	
+	// delete existing employee in table
 	@RequestMapping(value="/deleteEmployee",method = RequestMethod.POST)
-	//@Procedure(MediaType.APPLICATION_JSON)
 	public String deleteEmployee(@RequestBody Map<String,String> paramater){
 		
 		String result=null;
