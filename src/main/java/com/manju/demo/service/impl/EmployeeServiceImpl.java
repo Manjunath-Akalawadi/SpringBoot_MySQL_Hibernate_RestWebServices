@@ -1,4 +1,4 @@
-package com.manju.demo.services.impl;
+package com.manju.demo.service.impl;
 
 import java.util.List;
 import java.util.Map;
