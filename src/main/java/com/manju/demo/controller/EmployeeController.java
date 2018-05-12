@@ -106,7 +106,6 @@ public class EmployeeController {
 	
 	
 	@RequestMapping(value="/updateEmployee",method = RequestMethod.POST)
-	//@Procedure(MediaType.APPLICATION_JSON)
 	public String updateEmployee(@RequestBody Map<String,String> paramater){
 		
 		String result=null;
